@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Cura Data Driven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>474b0436-d3dd-4541-a72d-e71b29dd940f</testSuiteGuid>
+   <testCaseLink>
+      <guid>10b3cb8b-f944-4902-a716-75520695d902</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/common/Make Appointment (Data Driven)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a8001fb0-5ac6-4992-b8b1-9cfb81d12ee3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/cura</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>a8001fb0-5ac6-4992-b8b1-9cfb81d12ee3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>a1dd08b5-85db-43d2-b6f7-7204809ff570</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a8001fb0-5ac6-4992-b8b1-9cfb81d12ee3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>89c7ffd5-a9a7-4b7e-b2d3-5a82886129f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a8001fb0-5ac6-4992-b8b1-9cfb81d12ee3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>healthCare</value>
+         <variableId>de7dbde6-c03c-438e-b227-ceabed304fd4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a8001fb0-5ac6-4992-b8b1-9cfb81d12ee3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>programs</value>
+         <variableId>3c52e1c0-ef15-4044-ac27-296c67e1d012</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ebbd0e5-e867-40a1-8b48-7b211efe8fd6</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>21ed76da-184b-47bb-b6b7-b4dc9c5e0c5c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/cura</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>21ed76da-184b-47bb-b6b7-b4dc9c5e0c5c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>4ed22e31-cd88-46ce-9f7e-3f38f740427a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>21ed76da-184b-47bb-b6b7-b4dc9c5e0c5c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>e7e5e27f-ff94-4f3b-b011-d4526e41299c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4ed22e31-cd88-46ce-9f7e-3f38f740427a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e7e5e27f-ff94-4f3b-b011-d4526e41299c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
